@@ -2,6 +2,7 @@ Arreglar foto base de datos ENTIDAD_RELACION
 
 añadir tabla pedidos_online
 
+altaped
 160
 201($cheque)crear columna por si ya ha comproado recoger los datos anteriores
 254
