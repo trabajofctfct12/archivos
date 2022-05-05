@@ -1,6 +1,4 @@
-Arreglar foto base de datos ENTIDAD_RELACION
 
-añadir tabla pedidos_online
 
 altaped
 160
