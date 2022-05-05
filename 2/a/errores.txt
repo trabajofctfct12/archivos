@@ -12,7 +12,7 @@ Menu del dia
 if(dia par un menu) falta foto o texto menu
 if(dia impar otro menu) falta foto o texto menu
 
-Nuestro local ej(https://www.telepizza.es/info/faqs-sobre-telepizza)
+Nuestro local ej(https://www.telepizza.es/info/faqs-sobre-telepizza) - (https://www.starbucks.es/carta)
 con un hover un punto rojo (transparente por el centro) en una foto de un mapa y title nombre de la calle
 Informacion del local
 
