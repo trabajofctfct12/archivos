@@ -277,3 +277,30 @@ INSERT INTO `Lineapedidodomicilio` (`Id_lineapedido`, `Id_pedido`, `Id_plato`, `
 INSERT INTO `Lineapedidodomicilio` (`Id_lineapedido`, `Id_pedido`, `Id_plato`, `Precio`, `Cantidad`) VALUES (2, 1, 8, 6, 1);
 
 INSERT INTO `Lineapedidodomicilio` (`Id_lineapedido`, `Id_pedido`, `Id_plato`, `Precio`, `Cantidad`) VALUES (3, 1, 9, 10, 1);
+
+/*******************************************************************************
+								QUERYS PARA COMPROBAR LOS PEDIDOS REALIZADOS
+								
+	1. PEDIDOS LOCALES
+	
+	select * from pedidolocal;
+	
+	select * from lineapedidolocal where id_pedido=1;
+	
+	2. RESERVAS LOCALES 
+	
+	select * from reservaenlocal;
+	
+	select * from lineareservaenlocal where id_reserva=1;
+	
+	3. ENVIOS A DOMICILIO
+	
+	select * from enviodomicilio;
+	
+	select * from lineaenviodomicilio where id_pedido=1;
+								
+********************************************************************************/
+
+
+
+
