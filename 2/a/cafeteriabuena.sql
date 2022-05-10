@@ -24,6 +24,7 @@ CREATE TABLE `Usuarios`
     `Codigo_postal` NVARCHAR(5),
     `Telefono` NVARCHAR(9),
     `Email` NVARCHAR(60) NOT NULL,
+	`Saldo` INT,
     CONSTRAINT `PK_Usuarios` PRIMARY KEY  (`Id_usuario`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -149,15 +150,16 @@ CREATE TABLE `Lineapedidodomicilio`
 /*******************************************************************************
 									USUARIOS
    1 - Admin
-   2 - Cliente
-   3 - Cliente
+   2 - Cliente con saldo de 100 euros
+   3 - Cliente con saldo de 10 euros
+   4 - Cliente sin saldo
 ********************************************************************************/
 
-INSERT INTO `Usuarios` (`Tipo_usuario`,`Nombre`, `Apellidos`, `Ciudad`, `Pais`, `Codigo_postal`, `Telefono`, `Email`) VALUES ('Admin', 'Marco', 'Fernandez', 'Madrid', 'España', 28099, 666666666, 'marcof@gmail.com');
+INSERT INTO `Usuarios` (`Tipo_usuario`,`Nombre`, `Apellidos`, `Ciudad`, `Pais`, `Codigo_postal`, `Telefono`, `Email`, `Saldo`) VALUES ('Admin', 'Marco', 'Fernandez', 'Madrid', 'España', 28099, 666666666, 'marcof@gmail.com', 100);
 
-INSERT INTO `Usuarios` (`Tipo_usuario`,`Nombre`, `Apellidos`, `Ciudad`, `Pais`, `Codigo_postal`, `Telefono`, `Email`) VALUES ('Cliente', 'Andrea', 'Martin', 'Madrid', 'España', 28077, 699999999, 'andream@gmail.com');
+INSERT INTO `Usuarios` (`Tipo_usuario`,`Nombre`, `Apellidos`, `Ciudad`, `Pais`, `Codigo_postal`, `Telefono`, `Email`, `Saldo`) VALUES ('Cliente', 'Andrea', 'Martin', 'Madrid', 'España', 28077, 699999999, 'andream@gmail.com' , 10);
 
-INSERT INTO `Usuarios` (`Tipo_usuario`,`Nombre`, `Apellidos`, `Ciudad`, `Pais`, `Codigo_postal`, `Telefono`, `Email`) VALUES ('Cliente', 'Perico', 'Muñoz', 'Madrid', 'España', 28088, 611111111, 'pericom@gmail.com');
+INSERT INTO `Usuarios` (`Tipo_usuario`,`Nombre`, `Apellidos`, `Ciudad`, `Pais`, `Codigo_postal`, `Telefono`, `Email`, `Saldo`) VALUES ('Cliente', 'Perico', 'Muñoz', 'Madrid', 'España', 28088, 611111111, 'pericom@gmail.com', 0 );
 
 
 /*******************************************************************************
