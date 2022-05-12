@@ -22,3 +22,5 @@ Formulario quejas, numero telefono, email
 Donde estamos (lo quitaria porque ya tenemos nuestro local)
 
 Añadir footer y foto acceso que redirija tambien a "Mi cuenta" donde puedas cambiar tus datos (Contraseña, nombre, etc) y cerrar sesion
+
+Añadir a la documentación al principio que creamos el anteproyecto tambien
