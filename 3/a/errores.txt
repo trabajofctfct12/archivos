@@ -1,0 +1,25 @@
+Arreglar foto base de datos ENTIDAD_RELACION
+
+añadir tabla pedidos_online
+
+160
+201($cheque)crear columna por si ya ha comproado recoger los datos anteriores
+254
+
+
+Añadir reserva/Reparto a domicilio en menu incio
+
+Menu del dia
+if(dia par un menu) falta foto o texto menu
+if(dia impar otro menu) falta foto o texto menu
+
+Nuestro local ej(https://www.telepizza.es/info/faqs-sobre-telepizza)
+con un hover un punto rojo (transparente por el centro) en una foto de un mapa y title nombre de la calle
+Informacion del local
+
+Contacto
+Formulario quejas, numero telefono, email
+
+Donde estamos (lo quitaria porque ya tenemos nuestro local)
+
+Añadir footer y foto acceso que redirija tambien a "Mi cuenta"
