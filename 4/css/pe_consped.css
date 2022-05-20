@@ -1,0 +1,12 @@
+body {
+  background-color:  #126678  ;
+  color: white;
+  font-family: Arial;
+  font-size: 14pt;
+}
+
+a {color: white;}
+a:hover {
+  color: black;
+  font-size: 16pt;
+}
