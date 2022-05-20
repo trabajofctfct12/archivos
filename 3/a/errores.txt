@@ -7,6 +7,12 @@ altaped
 201($cheque)crear columna por si ya ha comproado recoger los datos anteriores
 254
 
+pe_inicio
+comprar a domicilio
+ver tus pedidos
+reserva en local
+modificar mis datos
+
 Mi cuenta
 Crear usuario
 
