@@ -1,16 +1,16 @@
 /*******************************************************************************
    Drop database if it exists
 ********************************************************************************/
-DROP DATABASE IF EXISTS `cafeteria2`;
+DROP DATABASE IF EXISTS `cafeteria`;
 
 
 /*******************************************************************************
    Crear base de datos
 ********************************************************************************/
-CREATE DATABASE `cafeteria2`;
+CREATE DATABASE `cafeteria`;
 
 
-USE `cafeteria2`;
+USE `cafeteria`;
 
 
 CREATE TABLE `Usuarios`
