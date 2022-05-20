@@ -5,6 +5,8 @@ altaped
 201($cheque)crear columna por si ya ha comproado recoger los datos anteriores
 254
 
+Mi cuenta
+Crear usuario
 
 Añadir reserva/Reparto a domicilio en menu incio
 
