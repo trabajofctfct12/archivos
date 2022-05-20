@@ -1,6 +1,7 @@
 
 
 altaped
+26
 160
 201($cheque)crear columna por si ya ha comproado recoger los datos anteriores
 254
