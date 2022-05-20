@@ -17,7 +17,12 @@
           $_SESSION['usuarioContraseña'] = $usuarioLogin["Telefono"];
           header("location:./php/pe_inicio.php"); //La función header() se puede utilizar para redirigir automáticamente a otra página, enviando como argumento la cadena Location:
       }else{
-          echo "Usuario o password incorrecto";
+        ?>
+        <script type="text/javascript">
+          alert("Usuario o password incorrecto");
+        </script>
+
+          <?php
       }
   }
  ?>
@@ -36,6 +41,7 @@
 
     </head>
     <body>
+      <br>
       <h1>Cafetería Santa Marta</h1>
     <br>
       <div class="menulateral">
@@ -48,6 +54,8 @@
       <!-- <a href="#">Reparto a domicilio</a> -->
     </div>
     <div class="opciones">
+      <br>      <br>
+
         <form action="pe_login.php" method="POST">
 
             <label>USUARIO: </label>
@@ -58,7 +66,12 @@
 
             <input type="submit" value="LOGIN"/>
 
+
         </form>
         </div>
+            <div class="opciones">
+                          <a href="crear_cuenta">Crear cuenta</a>
+                                      <a href="cambiar_contraseña">Cambiar contraseña</a>
+            </div>
     </body>
 </html>
