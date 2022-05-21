@@ -281,11 +281,11 @@ INSERT INTO `LineaReservaenlocal` (`Id_lineapedido`, `Id_reserva`, `Id_plato`, `
 
 INSERT INTO `Enviodomicilio` (`Id_pedido`, `Id_repartidor`, `Id_usuario`, `Fecha`, `Preciototal`, `Ubicacion`) VALUES (1, 1, 3, '2022-05-4 22:00:00' , 21 , 'Calle Alberto Aguilera 16 Portal 2 Piso 6B');
 
-INSERT INTO `Lineapedidodomicilio` (`Id_lineapedido`, `Id_pedido`, `Id_plato`, `Precio`, `Cantidad`) VALUES (1, 1, 7, 5, 1);
+INSERT INTO `Lineapedidodomicilio` (`Id_lineapedido`, `Id_pedido`, `Id_plato`,`Id_usuario`, `Precio`, `Cantidad`) VALUES (1, 1, 1, 7, 5, 1);
 
-INSERT INTO `Lineapedidodomicilio` (`Id_lineapedido`, `Id_pedido`, `Id_plato`, `Precio`, `Cantidad`) VALUES (2, 1, 8, 6, 1);
+INSERT INTO `Lineapedidodomicilio` (`Id_lineapedido`, `Id_pedido`, `Id_plato`,`Id_usuario`, `Precio`, `Cantidad`) VALUES (2, 1, 1, 8, 6, 1);
 
-INSERT INTO `Lineapedidodomicilio` (`Id_lineapedido`, `Id_pedido`, `Id_plato`, `Precio`, `Cantidad`) VALUES (3, 1, 9, 10, 1);
+INSERT INTO `Lineapedidodomicilio` (`Id_lineapedido`, `Id_pedido`, `Id_plato`,`Id_usuario`, `Precio`, `Cantidad`) VALUES (3, 1, 1, 9, 10, 1);
 
 /*******************************************************************************
 								QUERYS PARA COMPROBAR LOS PEDIDOS REALIZADOS
