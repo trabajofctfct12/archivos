@@ -78,10 +78,12 @@ CREATE TABLE `LineaPedidolocal`
 	`Id_lineapedido` INT NOT NULL,
     `Id_pedido` INT NOT NULL,
 	`Id_plato` INT NOT NULL,
+	`Id_usuario` INT NOT NULL,
     `Precio` INT,
     `Cantidad` INT NOT NULL,
 		 CONSTRAINT `PK_LineaPedidolocal` PRIMARY KEY  (`Id_lineapedido`),
 	CONSTRAINT `FK_LineaPedidolocalId_pedido` FOREIGN KEY (`Id_pedido`) REFERENCES `Pedidolocal` (`Id_pedido`),
+	CONSTRAINT `FK_LineaPedidolocalId_usuario` FOREIGN KEY (`Id_usuario`) REFERENCES `Usuarios` (`Id_usuario`),
 		CONSTRAINT `FK_LineaPedidolocalId_plato` FOREIGN KEY (`Id_plato`) REFERENCES `Platos` (`Id_plato`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -106,10 +108,12 @@ CREATE TABLE `LineaReservaenlocal`
     `Id_lineapedido` INT NOT NULL,
 	`Id_reserva` INT NOT NULL,
 	`Id_plato` INT NOT NULL,
+		`Id_usuario` INT NOT NULL,
 	`Precio` INT,
     `Cantidad` INT(4) NOT NULL,
 	CONSTRAINT `PK_LineaReservaenlocal` PRIMARY KEY  (`Id_lineapedido`),
 		 CONSTRAINT `FK_LineaReservaenlocalId_reserva` FOREIGN KEY (`Id_reserva`) REFERENCES `Reservaenlocal` (`Id_reserva`),
+		CONSTRAINT `FK_LineaReservaenlocalId_usuario` FOREIGN KEY (`Id_usuario`) REFERENCES `Usuarios` (`Id_usuario`),
 	CONSTRAINT `FK_LineaReservaenlocalId_plato` FOREIGN KEY (`Id_plato`) REFERENCES `Platos` (`Id_plato`)		
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -135,10 +139,12 @@ CREATE TABLE `Lineapedidodomicilio`
     `Id_lineapedido` INT NOT NULL,
 	`Id_pedido` INT NOT NULL,
 	`Id_plato` INT NOT NULL,
+		`Id_usuario` INT NOT NULL,
 	`Precio` INT,
     `Cantidad` INT(4) NOT NULL,
 		CONSTRAINT `PK_Lineapedidodomicilio` PRIMARY KEY  (`Id_lineapedido`),
 		 CONSTRAINT `FK_LineapedidodomicilioId_pedido` FOREIGN KEY (`Id_pedido`) REFERENCES `Enviodomicilio` (`Id_pedido`),
+			CONSTRAINT `FK_LineapedidodomicilioId_usuario` FOREIGN KEY (`Id_usuario`) REFERENCES `Usuarios` (`Id_usuario`),
 	CONSTRAINT `FK_LineapedidodomicilioId_plato` FOREIGN KEY (`Id_plato`) REFERENCES `Platos` (`Id_plato`)
 
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
