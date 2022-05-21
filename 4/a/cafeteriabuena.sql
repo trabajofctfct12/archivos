@@ -241,9 +241,9 @@ INSERT INTO `Repartidor` (`Id_repartidor`, `Nombre`, `Disponibilidad`) VALUES (2
 
 INSERT INTO `Pedidolocal` (`Id_pedido`, `Id_mesa`, `Fecha`, `Preciototal` ) VALUES (1, 1, '2022-05-5 14:00:00', 6);
 
-INSERT INTO `LineaPedidolocal` (`Id_lineapedido`, `Id_pedido`, `Id_plato`, `Precio`, `Cantidad`) VALUES (1, 1, 1, 1, 4);
+INSERT INTO `LineaPedidolocal` (`Id_lineapedido`, `Id_pedido`, `Id_plato`,`Id_plato`, `Precio`, `Cantidad`) VALUES (1, 1, 1, 1, 1, 4);
 
-INSERT INTO `LineaPedidolocal` (`Id_lineapedido`, `Id_pedido`, `Id_plato`, `Precio`,  `Cantidad`) VALUES (2, 1, 3, 1, 2);
+INSERT INTO `LineaPedidolocal` (`Id_lineapedido`, `Id_pedido`, `Id_plato`,`Id_plato`, `Precio`,  `Cantidad`) VALUES (2, 1, 1, 3, 1, 2);
 
 /*******************************************************************************
 								RESERVA LOCAL EN CAFETERIA DESDE LA WEB
@@ -260,15 +260,15 @@ INSERT INTO `LineaPedidolocal` (`Id_lineapedido`, `Id_pedido`, `Id_plato`, `Prec
 
 INSERT INTO `Reservaenlocal` (`Id_usuario`, `Id_reserva`, `Id_mesa`, `Telefono`, `Email`, `Fechainicio`, `Fechafin` ) VALUES (2, 1, 2, 699999999, 'andrea@gmail.com', '2022-05-4 14:00:00', '2022-05-4 16:00:00');
 
-INSERT INTO `LineaReservaenlocal` (`Id_lineapedido`, `Id_reserva`, `Id_plato`, `Precio`, `Cantidad`) VALUES (1, 1, 2, 7, 4);
+INSERT INTO `LineaReservaenlocal` (`Id_lineapedido`, `Id_reserva`, `Id_plato`,`Id_usuario`, `Precio`, `Cantidad`) VALUES (1, 1, 1, 2, 7, 4);
 
-INSERT INTO `LineaReservaenlocal` (`Id_lineapedido`, `Id_reserva`, `Id_plato`, `Precio`, `Cantidad`) VALUES (2, 1, 6, 15, 4);
+INSERT INTO `LineaReservaenlocal` (`Id_lineapedido`, `Id_reserva`, `Id_plato`,`Id_usuario`, `Precio`, `Cantidad`) VALUES (2, 1, 1, 6, 15, 4);
 
-INSERT INTO `LineaReservaenlocal` (`Id_lineapedido`, `Id_reserva`, `Id_plato`, `Precio`, `Cantidad`) VALUES (3, 1, 5, 1, 4);
+INSERT INTO `LineaReservaenlocal` (`Id_lineapedido`, `Id_reserva`, `Id_plato`,`Id_usuario`, `Precio`, `Cantidad`) VALUES (3, 1, 1, 5, 1, 4);
 
-INSERT INTO `LineaReservaenlocal` (`Id_lineapedido`, `Id_reserva`, `Id_plato`, `Precio`, `Cantidad`) VALUES (4, 1, 3, 2, 4);
+INSERT INTO `LineaReservaenlocal` (`Id_lineapedido`, `Id_reserva`, `Id_plato`,`Id_usuario`, `Precio`, `Cantidad`) VALUES (4, 1, 1, 3, 2, 4);
 
-INSERT INTO `LineaReservaenlocal` (`Id_lineapedido`, `Id_reserva`, `Id_plato`, `Precio`, `Cantidad`) VALUES (5, 1, 4, 2, 2);
+INSERT INTO `LineaReservaenlocal` (`Id_lineapedido`, `Id_reserva`, `Id_plato`,`Id_usuario`, `Precio`, `Cantidad`) VALUES (5 1,, 1, 4, 2, 2);
 
 /*******************************************************************************
 								PEDIDO A DOMICILIO DESDE LA WEB
