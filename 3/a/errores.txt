@@ -1,7 +1,7 @@
 https://codepen.io/PSBlakemore/pen/avzvgO       //menu inico
 https://codepen.io/z-/pen/wvBEOYj              //menu carta
 https://www.archdaily.mx/mx/920744/cafeteria-daily-sivak-and-partners // fotos de la cafeteria
-
+https://www.littlesnippets.net/blog/some-css-menu-inspiration-using-animated-lines  //animaciones chulas menu 
 altaped
 160
 201($cheque)crear columna por si ya ha comproado recoger los datos anteriores
