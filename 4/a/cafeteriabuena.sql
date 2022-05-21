@@ -162,11 +162,11 @@ CREATE TABLE `Lineapedidodomicilio`
    4 - Cliente sin saldo
 ********************************************************************************/
 
-INSERT INTO `Usuarios` (`Tipo_usuario`,`Nombre`, `Apellidos`, `Ciudad`, `Pais`, `Codigo_postal`, `Telefono`, `Email`, `Saldo`) VALUES ('Admin', 'Marco', 'Fernandez', 'Madrid', 'España', 28099, 666666666, 'marcof@gmail.com', 100);
+INSERT INTO `Usuarios` (`Tipo_usuario`,`Nombre`, `Apellidos`, `Contrasena`, `Ciudad`, `Pais`, `Codigo_postal`, `Telefono`, `Email`, `Saldo`) VALUES ('Admin', 'Marco', 'Fernandez', '1', 'Madrid', 'España', 28099, 666666666, 'marcof@gmail.com', 100);
 
-INSERT INTO `Usuarios` (`Tipo_usuario`,`Nombre`, `Apellidos`, `Ciudad`, `Pais`, `Codigo_postal`, `Telefono`, `Email`, `Saldo`) VALUES ('Cliente', 'Andrea', 'Martin', 'Madrid', 'España', 28077, 699999999, 'andream@gmail.com' , 10);
+INSERT INTO `Usuarios` (`Tipo_usuario`,`Nombre`, `Apellidos`, `Contrasena`, `Ciudad`, `Pais`, `Codigo_postal`, `Telefono`, `Email`, `Saldo`) VALUES ('Cliente', 'Andrea', 'Martin', '1', 'Madrid', 'España', 28077, 699999999, 'andream@gmail.com' , 10);
 
-INSERT INTO `Usuarios` (`Tipo_usuario`,`Nombre`, `Apellidos`, `Ciudad`, `Pais`, `Codigo_postal`, `Telefono`, `Email`, `Saldo`) VALUES ('Cliente', 'Perico', 'Muñoz', 'Madrid', 'España', 28088, 611111111, 'pericom@gmail.com', 0 );
+INSERT INTO `Usuarios` (`Tipo_usuario`,`Nombre`, `Apellidos`, `Contrasena`, `Ciudad`, `Pais`, `Codigo_postal`, `Telefono`, `Email`, `Saldo`) VALUES ('Cliente', 'Perico', 'Muñoz', '1', 'Madrid', 'España', 28088, 611111111, 'pericom@gmail.com', 0 );
 
 
 /*******************************************************************************
