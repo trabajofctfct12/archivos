@@ -241,9 +241,9 @@ INSERT INTO `Repartidor` (`Id_repartidor`, `Nombre`, `Disponibilidad`) VALUES (2
 
 INSERT INTO `Pedidolocal` (`Id_pedido`, `Id_mesa`, `Fecha`, `Preciototal` ) VALUES (1, 1, '2022-05-5 14:00:00', 6);
 
-INSERT INTO `LineaPedidolocal` (`Id_lineapedido`, `Id_pedido`, `Id_plato`,`Id_plato`, `Precio`, `Cantidad`) VALUES (1, 1, 1, 1, 1, 4);
+INSERT INTO `LineaPedidolocal` (`Id_lineapedido`, `Id_pedido`, `Id_plato`,`Id_usuario`, `Precio`, `Cantidad`) VALUES (1, 1, 1, 1, 1, 4);
 
-INSERT INTO `LineaPedidolocal` (`Id_lineapedido`, `Id_pedido`, `Id_plato`,`Id_plato`, `Precio`,  `Cantidad`) VALUES (2, 1, 1, 3, 1, 2);
+INSERT INTO `LineaPedidolocal` (`Id_lineapedido`, `Id_pedido`, `Id_plato`,`Id_usuario`, `Precio`,  `Cantidad`) VALUES (2, 1, 1, 3, 1, 2);
 
 /*******************************************************************************
 								RESERVA LOCAL EN CAFETERIA DESDE LA WEB
