@@ -19,7 +19,7 @@ CREATE TABLE `Usuarios`
 	`Tipo_usuario` NVARCHAR(10) NOT NULL,
     `Nombre` NVARCHAR(20) NOT NULL,
     `Apellidos` NVARCHAR(40) NOT NULL,
-    `Contraseña` NVARCHAR(40) NOT NULL,
+    `Contrasena` NVARCHAR(40) NOT NULL,
     `Ciudad` NVARCHAR(20),
     `Pais` NVARCHAR(20),
     `Codigo_postal` NVARCHAR(5),
