@@ -1,0 +1,32 @@
+https://codepen.io/PSBlakemore/pen/avzvgO       //menu inico
+https://codepen.io/z-/pen/wvBEOYj              //menu carta
+https://codepen.io/z-/details/ZEzMpdj      y       https://codepen.io/HarlemSquirrel/pen/NdMebZ      //modo oscuro
+
+https://www.archdaily.mx/mx/920744/cafeteria-daily-sivak-and-partners // fotos de la cafeteria
+https://www.littlesnippets.net/blog/some-css-menu-inspiration-using-animated-lines  //animaciones chulas menu 
+altaped
+160
+201($cheque)crear columna por si ya ha comproado recoger los datos anteriores
+254
+tablas de pedidos online
+
+pe_inicio
+comprar a domicilio-
+ver tus pedidos
+reserva en local
+
+Añadir reserva/Reparto a domicilio en menu incio
+
+Menu del dia
+if(dia par un menu) falta foto o texto menu
+if(dia impar otro menu) falta foto o texto menu
+
+Nuestro local ej(https://www.telepizza.es/info/faqs-sobre-telepizza) - (https://www.starbucks.es/carta)
+con un hover un punto rojo (transparente por el centro) en una foto de un mapa y title nombre de la calle
+Informacion del local
+
+Contacto
+Formulario quejas, numero telefono, email
+
+
+Añadir footer con foto acceso que redirija tambien a "Mi cuenta" donde puedas cambiar tus datos (Contraseña, nombre, etc) y cerrar sesion
