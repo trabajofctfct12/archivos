@@ -1,0 +1,101 @@
+/*******************************************************************************
+   Drop database if it exists
+********************************************************************************/
+DROP DATABASE IF EXISTS `cafeteria2`;
+
+
+/*******************************************************************************
+   Crear base de datos
+********************************************************************************/
+CREATE DATABASE `cafeteria2`;
+
+
+USE `cafeteria2`;
+/*******************************************************************************
+   Platos del menú 1:
+********************************************************************************/
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Espaguetis a la carbonara', 'Comida', 8.47);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Ensalada de Primavera', 'Comida', 6.05);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Verdura a la plancha', 'Comida', 7.26);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Fetucchini al Pesto', 'Comida', 9.68);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Lasaña Vegetariana', 'Comida', 12.1);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Pizza Prosciutto', 'Comida', 13.31);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Pizza Calabresa', 'Comida', 14.52);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Escalope de Pollo', 'Comida', 9.68);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Tortilla Española', 'Comida', 12.1);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Entrecot', 'Comida', 18.15);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Gnocchi a la Sorrentina', 'Comida', 18.15);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Tiramisú', 'Postre', 8.47);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Tarta de queso', 'Postre', 10.89);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Tarrina de vainilla', 'Postre', 4.84);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Tarrina de chocolate', 'Postre', 4.84);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Tarrina de fresa', 'Postre', 4.84);
+
+/*******************************************************************************
+   Platos del menú 2:
+********************************************************************************/
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Canelones con tomate', 'Comida', 10.89);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Sandwich mixto', 'Comida', 6.05);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Sandwich vegano', 'Comida', 7.26);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Bocadillo de lomo', 'Comida', 9.68);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Ensaladilla rusa', 'Comida', 7.26);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Salmorejo', 'Comida', 13.31);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Chuletas de cordero', 'Comida', 14.52);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Berenjenas rellenas', 'Comida', 9.68);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Croquetas de jamón', 'Comida', 12.1);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Calamares a la romana', 'Comida', 18.15);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Costillas a la barbacoa', 'Comida', 18.15);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Fritura de pescado', 'Comida', 18.15);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Café con hielo', 'Postre', 4.84);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Café con leche', 'Postre', 4.84);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Café con cortado', 'Postre', 4.84);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Café con solo', 'Postre', 4.84);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Café con americano', 'Postre', 4.84);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Capucchino', 'Postre', 4.84);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Mocca', 'Postre', 4.84);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Machiatto', 'Postre', 4.84);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Frappé', 'Postre', 4.84);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Natillas', 'Postre', 4.84);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Flan de huevo', 'Postre', 4.84);
+
+
+
