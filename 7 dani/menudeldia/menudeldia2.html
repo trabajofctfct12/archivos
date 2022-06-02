@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cafetería</title>
+  </head>
+  <link rel="stylesheet" href="../css/menu.css">
+  <link rel="icon" href="../img/cafe.png">
+  <!-- links estilos menu del dia -->
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="estilotabla.css">
+    <!-- cierre links estilos menu del dia -->
+  <!-- esencial para que funcione -->
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <!-- esencial para que funcione -->
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script type='text/javascript' src='../js/menu.js'></script>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Condensed:wght@700&display=swap');
+  </style>
+    <body class="body3">
+    <div class="text"><a href="#" class="atitulo">CAFETERÍA SANTA MARTA<img src="../img/cafesinfondo.png" alt="cafe" class="cafe"></a></div>
+  <div class="menu-tab">
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+  </div>
+  <div class="menu-hide">
+    <nav>
+      <ul>
+        <li><a href="#">MI CUENTA <img src="../img/cuenta.png" alt="micuenta" class="micuenta"></a></li>
+        <li id="mostrar"><a href="../index.php">INICIO <img src="../img/inicio.png" alt="menudeldia" class="inicio">
+        </a></li>
+        <li><a href="#">NUESTRO LOCAL <img src="../img/local1.png" alt="local" class="local"></a></li>
+        <li><a href="#">CONTACTO <img src="../img/contacto.png" alt="contacto" class="contacto"></a></li>
+        <li><a href="preguntas.php">PREGUNTAS <img src="img/pregunta.png" alt="preguntas frecuentes" class="pregunta"></a></li>
+
+      </ul>
+    </nav>
+  </div>
+  <br><br><br>
+    <!-- menu del dia -->
+      <div class="limiter">
+      <div class="table100 ver1 m-b-110">
+      <div class="table100-head">
+      <table>
+      <thead>
+      <th class="cell100 column1">Platos del Menú del día</th>
+      <th class="cell100 column2">Descripción</th>
+      <th class="cell100 column3">Alérgenos</th>
+      <th class="cell100 column4">Precio</th>
+      <th class="cell100 column5">Precio con IVA</th>
+      </tr>
+      </thead>
+      </table>
+      </div>
+      <div class="table100-body js-pscroll">
+      <table>
+      <tbody>
+        <tr class="row100 body">
+          <td class="cell100 column1">Primeros <img src="comida.png" style="height:30px;width:32px;"></td>
+      </tr>
+      <tr class="row100 body">
+      <td class="cell100 column1">Canelones con tomate</td>
+      <td class="cell100 column2">Pasta italiana rellena con carne picada y verdura.</td>
+      <td class="cell100 column3">Contiene carne y verdura.
+      <br>
+      <img src="alergenos/gluten.png" style="height:40px;width:32px;">
+      <td class="cell100 column4">9 Euros</td>
+      <td class="cell100 column5">10.89 Euros</td>
+      </tr>
+
+      <tr class="row100 body">
+      <td class="cell100 column1">Sandwich mixto</td>
+      <td class="cell100 column2">Clásico sandwich mixto con queso y jamón de york calentito.</td>
+      <td class="cell100 column3">Contiene jamón y queso.
+        <br>
+        <img src="alergenos/gluten.png" style="height:40px;width:32px;">
+        <img src="alergenos/lacteos.png" style="height:40px;width:32px;">
+        <img src="alergenos/huevo.png" style="height:40px;width:32px;">
+        <img src="alergenos/soja.png" style="height:40px;width:32px;">
+      </td>
+      <td class="cell100 column4">5 Euros</td>
+      <td class="cell100 column5">6.05 Euros</td>
+      </tr>
+      <tr class="row100 body">
+      <td class="cell100 column1">Sandwich vegano</td>
+      <td class="cell100 column2">Contiene garganzos y aguacate.</td>
+      <td class="cell100 column3">Contiene cereales.
+        <br>
+        <img src="alergenos/gluten.png" style="height:40px;width:32px;">
+      </td>
+      <td class="cell100 column4">6 Euros</td>
+      <td class="cell100 column5">7.26 Euros</td>
+      </tr>
+      <tr class="row100 body">
+      <td class="cell100 column1">Bocadillo de lomo</td>
+      <td class="cell100 column2">Bocadillo de cintas de lomo aliñado con aceite y guarnición de patatas.</td>
+      <td class="cell100 column3">Contiene cereales.
+      </br>
+        <img src="alergenos/huevo.png" style="height:40px;width:32px;">
+        <img src="alergenos/gluten.png" style="height:40px;width:32px;">
+      </td>
+      <td class="cell100 column4">8 Euros</td>
+      <td class="cell100 column5">9.68 Euros</td>
+      </tr>
+      <tr class="row100 body">
+      <td class="cell100 column1">Ensaladilla rusa</td>
+      <td class="cell100 column2">Ensaladilla rusa con patata, zanahoria, huevo y atún con mayonesa.</td>
+      <td class="cell100 column3">Contiene bechamel, salsa tomate y verduras.
+      </br>
+      <img src="alergenos/huevo.png" style="height:40px;width:32px;">
+      <img src="alergenos/pescado.png" style="height:40px;width:32px;">
+      <img src="alergenos/soja.png" style="height:40px;width:32px;">
+      <img src="alergenos/lacteos.png" style="height:40px;width:32px;">
+      </td>
+      <td class="cell100 column4">6 Euros</td>
+      <td class="cell100 column5">7.26 Euros</td>
+      </tr>
+
+      <tr class="row100 body">
+        <td class="cell100 column1">Segundos  <img src="comida.png" style="height:30px;width:32px;">
+      </td>
+      </tr>
+      <tr class="row100 body">
+      <td class="cell100 column1">Salmorejo</td>
+      <td class="cell100 column2">Miga de pan con virutas de jamón y huevo duro, aceite y tomate.</td>
+      <td class="cell100 column3">Contiene tomate, aceite, huevo y jamón.
+      <br>
+      <img src="alergenos/gluten.png" style="height:40px;width:32px;">
+      <img src="alergenos/soja.png" style="height:40px;width:32px;">
+      <img src="alergenos/lacteos.png" style="height:40px;width:32px;">
+      </td>
+      <td class="cell100 column4">11 Euros</td>
+      <td class="cell100 column5">13.31 Euros</td>
+      </tr>
+      <tr class="row100 body">
+      <td class="cell100 column1">Chuletas de cordero</td>
+      <td class="cell100 column2">Carne de cordero muy fina con guarnicion de papas.</td>
+      <td class="cell100 column3">No contiene alergenos.
+      </br>
+       </td>
+      <td class="cell100 column4">12 Euros</td>
+      <td class="cell100 column5">14.52 Euros</td>
+      </tr>
+      <tr class="row100 body">
+      <td class="cell100 column1">Berenjenas rellenas</td>
+      <td class="cell100 column2">Las berenjenas rellenas llevan magro de cerdo, cebolla, tomate, aceite, bechamel, especias naturales, y queso rallado.</td>
+      <td class="cell100 column3">Con ensalada si se solicita.
+      <br>
+      <img src="alergenos/gluten.png" style="height:40px;width:32px;">
+      <img src="alergenos/huevo.png" style="height:40px;width:32px;">
+      <img src="alergenos/apio.png" style="height:40px;width:32px;">
+      <img src="alergenos/lacteos.png" style="height:40px;width:32px;">
+      </td>
+      <td class="cell100 column4">8 Euros</td>
+      <td class="cell100 column5">9.68 Euros</td>
+      </tr>
+      <tr class="row100 body">
+      <td class="cell100 column1">Croquetas de jamón</td>
+      <td class="cell100 column2">Bolitas de bechamel rebozadas con jamón partido en su interior.</td>
+      <td class="cell100 column3">Contiene bechamel y jamón. </td>
+      <td class="cell100 column4">5 Euros</td>
+      <td class="cell100 column5">6.05 Euros</td>
+      </tr>
+      <tr class="row100 body">
+      <td class="cell100 column1">Calamares a la romana</td>
+      <td class="cell100 column2">Calamares rebozadados con un poco de cebolla.</td>
+      <td class="cell100 column3">Con cebolla y aceite.
+        No tiene alergenos.
+      </td>
+      <td class="cell100 column4">10 Euros</td>
+      <td class="cell100 column5">12.1 Euros</td>
+      </tr>
+      <tr class="row100 body">
+      <td class="cell100 column1">Costillas a la barbacoa</td>
+      <td class="cell100 column2">Pieza de carne de buey o de ternera sacada del costillar freido en la barbacoa.</td>
+      <td class="cell100 column3">Con ensalada y papas fritas.
+      </td>
+      <td class="cell100 column4">15 Euros</td>
+      <td class="cell100 column5">18.15 Euros</td>
+      </tr>
+      <tr class="row100 body">
+      <td class="cell100 column1">Fritura de pescado</td>
+      <td class="cell100 column2">Diversos pescaditos marinados y rebozados.</td>
+      <td class="cell100 column3">Contiene rebozado y pescados.
+      <br>
+      <img src="alergenos/pescado.png" style="height:40px;width:32px;">
+      <img src="alergenos/soja.png" style="height:40px;width:32px;">
+       </td>
+      <td class="cell100 column4">15 Euros</td>
+      <td class="cell100 column5">18.15 Euros</td>
+      </tr>
+      <td class="cell100 column1">Postres
+        <img src="postre.png" style="height:24px;width:24px;">
+      </td>
+
+      <tr class="row100 body">
+      <td class="cell100 column1">Café a elegir</td>
+      <td class="cell100 column2">Café a elegir por el cliente</td>
+      <td class="cell100 column3">
+      <br>
+      <img src="alergenos/lacteos.png" style="height:40px;width:32px;">
+      <img src="alergenos/soja.png" style="height:40px;width:32px;">
+       </td>
+      <td class="cell100 column4">4 Euros</td>
+      <td class="cell100 column5">4.84 Euros</td>
+      </tr>
+
+      <tr class="row100 body">
+      <td class="cell100 column1">Natillas</td>
+      <td class="cell100 column2">Natillas caseras muy ricas.</td>
+      <td class="cell100 column3">Contiene leche.
+      <br>
+      <img src="alergenos/lacteos.png" style="height:40px;width:32px;">
+      <img src="alergenos/huevo.png" style="height:40px;width:32px;">
+       </td>
+      <td class="cell100 column4">4 Euros</td>
+      <td class="cell100 column5">4.84 Euros</td>
+      </tr>
+
+      <tr class="row100 body">
+      <td class="cell100 column1">Flan de huevo</td>
+      <td class="cell100 column2">Flan con galleta muy rico pal postre</td>
+      <td class="cell100 column3">Contiene lacteos principalmente y posibles trazas de huevo.
+      <br>
+      <img src="alergenos/lacteos.png" style="height:40px;width:32px;">
+      <img src="alergenos/huevo.png" style="height:40px;width:32px;">
+       </td>
+      <td class="cell100 column4">4 Euros</td>
+      <td class="cell100 column5">4.84 Euros</td>
+      </tr>
+      </tr>
+      </tbody>
+      </table>
+      </div>
+      </div>
+
+  <!-- <input type="button" value="Mostrar" name="mostrar" id="mostrar" /> -->
+</div>
+  </body>
+</html>
