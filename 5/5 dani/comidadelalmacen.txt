@@ -84,3 +84,22 @@ INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Frappé', 'Postre', 
 INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Natillas', 'Postre', 4.84);
 
 INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Flan de huevo', 'Postre', 4.84);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Cocacola', 'Bebida', 2.42);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Fanta naranja', 'Bebida', 2.42);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Fanta limón', 'Bebida', 2.42);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Nestea', 'Bebida', 2.42);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Pepsi', 'Bebida', 2.42);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Acuarius naranja', 'Bebida', 2.42);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Acuarius limón', 'Bebida', 2.42);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Sprite', 'Bebida', 2.42);
+
+INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`) VALUES ( 'Agua', 'Bebida', 0);
+
