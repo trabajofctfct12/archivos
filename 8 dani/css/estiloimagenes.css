@@ -1,0 +1,36 @@
+#content {
+	width: 1200px;
+	margin: 40px auto 0 auto;
+	padding-left: 80px;
+	padding-top: 20px;
+	padding-right: : 80px;
+	border: solid 1px #cbcbcb;
+	background: #fafafa;
+	-moz-box-shadow: 0px 0px 10px #cbcbcb;
+	-webkit-box-shadow: 0px 0px 10px #cbcbcb;
+}
+
+.parrafoimagenes{
+	margin: 0;
+	padding: 7px 0;
+	}
+
+.parrafoimagenes a {
+	outline: none;
+}
+
+a img {
+	border: 1px solid #BBB;
+	padding: 2px;
+	margin: 10px 20px 10px 0;
+	vertical-align: top;
+}
+
+a img.last {
+	margin-right: 0;
+}
+
+ul {
+	margin-bottom: 24px;
+	padding-left: 30px;
+}
