@@ -1,0 +1,2 @@
+CONTENIDO EN LOCALHOST: https://drive.google.com/file/d/1CxP3ukptBxUZ9szomac59XyU3wx6kDXY/view?usp=sharing
+ABRIR INDEX.PHP que es la pagina principal 
