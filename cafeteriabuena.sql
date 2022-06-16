@@ -81,7 +81,6 @@ CREATE TABLE `LineaPedidolocal`
     `Id_usuario` INT NOT NULL,
     `Precio` INT,
     `Cantidad` INT NOT NULL,
-        CONSTRAINT `PK_LineaPedidolocal` PRIMARY KEY  (`Id_lineapedido`),
 	CONSTRAINT `FK_LineaPedidolocalId_pedido` FOREIGN KEY (`Id_pedido`) REFERENCES `Pedidolocal` (`Id_pedido`),
 	CONSTRAINT `FK_LineaPedidolocalId_usuario` FOREIGN KEY (`Id_usuario`) REFERENCES `Usuarios` (`Id_usuario`),
 	CONSTRAINT `FK_LineaPedidolocalId_plato` FOREIGN KEY (`Id_plato`) REFERENCES `Platos` (`Id_plato`)
@@ -110,7 +109,6 @@ CREATE TABLE `LineaReservaenlocal`
     `Id_usuario` INT NOT NULL,
     `Precio` INT,
     `Cantidad` INT(4) NOT NULL,
-     CONSTRAINT `PK_LineaReservaenlocal` PRIMARY KEY  (`Id_lineapedido`),
      CONSTRAINT `FK_LineaReservaenlocalId_reserva` FOREIGN KEY (`Id_reserva`) REFERENCES `Reservaenlocal` (`Id_reserva`),
      CONSTRAINT `FK_LineaReservaenlocalId_usuario` FOREIGN KEY (`Id_usuario`) REFERENCES `Usuarios` (`Id_usuario`),
      CONSTRAINT `FK_LineaReservaenlocalId_plato` FOREIGN KEY (`Id_plato`) REFERENCES `Platos` (`Id_plato`)		
@@ -140,7 +138,6 @@ CREATE TABLE `Lineapedidodomicilio`
     `Id_usuario` INT NOT NULL,
     `Precio` INT,
     `Cantidad` INT(4) NOT NULL,
-    CONSTRAINT `PK_Lineapedidodomicilio` PRIMARY KEY  (`Id_lineapedido`),
     CONSTRAINT `FK_LineapedidodomicilioId_pedido` FOREIGN KEY (`Id_pedido`) REFERENCES `Enviodomicilio` (`Id_pedido`),
     CONSTRAINT `FK_LineapedidodomicilioId_usuario` FOREIGN KEY (`Id_usuario`) REFERENCES `Usuarios` (`Id_usuario`),
     CONSTRAINT `FK_LineapedidodomicilioId_plato` FOREIGN KEY (`Id_plato`) REFERENCES `Platos` (`Id_plato`)
@@ -273,8 +270,6 @@ INSERT INTO `Lineapedidodomicilio` (`Id_lineapedido`, `Id_pedido`, `Id_plato`,`I
 /*******************************************************************************
 		Platos
 ********************************************************************************/
-
-use cafeteria2;
 
 INSERT INTO `Platos` (`Nombre`, `Tipo`, `Precio`, `Numerodemenu`) VALUES ( 'Espaguetis Carbonara', 'Comida', 8.47, 11);
 
